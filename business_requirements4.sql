@@ -1,4 +1,4 @@
--- Determine the top 5 customers by profit in each territory
+-- Determine the top 5 customers by profit in each territory 
 
 select * from (
 select region, customer_name, profit, dense_rank() over (partition by region order by profit desc) as rnk 

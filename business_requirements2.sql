@@ -1,4 +1,4 @@
--- Customer Names who have purchased specific product
+-- Customer Names who have purchased specific products
 
 select distinct customer_name from tbl_fnl_customers where customerkey in (
 select customerkey from tbl_fnl_sales where productkey = (

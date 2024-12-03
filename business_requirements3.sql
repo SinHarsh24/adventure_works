@@ -1,4 +1,4 @@
--- Calculate the total sales by territory using the sum of product prices multiplied by order quantities
+-- Calculate the total sales by territory using the sum of product prices multiplied by order quantities 
 
 with totalsalesbyterritory as 
 (

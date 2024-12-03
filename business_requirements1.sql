@@ -1,4 +1,4 @@
--- Customer Demographic and sale data
+-- Customer Demographic and sales data
 
 select gender , marital_status, avg(annual_income) as avg_income, sum(sales) as sum_sales, sum(profit) as sum_profit 
 from(
