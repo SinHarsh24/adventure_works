@@ -1258,6 +1258,8 @@ END ;
 
 
 
+/*Creating Views*/
+
 CREATE 
     ALGORITHM = UNDEFINED 
     DEFINER = `root`@`localhost` 
